@@ -1,0 +1,62 @@
+query {
+  articleCollection (limit: 1000, where: { ssoProtected: false, searchable: true }) {
+        items {
+            slug
+            title
+            ssoProtected
+            summary
+            keywords
+            bodyText {
+                json
+            }
+        }
+  }
+  equipmentCollection (limit: 1000, where: { ssoProtected: false, searchable: true }) {
+        items {
+            slug
+            title
+            ssoProtected
+            summary
+            keywords
+            bodyText {
+                json
+            }
+        }
+  }
+  eventCollection (limit: 1000, where: { ssoProtected: false, searchable: true }) {
+        items {
+            slug
+            title
+            ssoProtected
+            summary
+            keywords
+            bodyText {
+                json
+            }
+        }
+  }
+  serviceCollection (limit: 1000, where: { ssoProtected: false, searchable: true }) {
+        items {
+            slug
+            title
+            ssoProtected
+            summary
+            keywords
+            bodyText {
+                json
+            }
+        }
+  }
+  subHubCollection (limit: 1000, where: { ssoProtected: false, searchable: true }) {
+        items {
+            slug
+            title
+            ssoProtected
+            summary
+            keywords
+            bodyText {
+                json
+            }
+        }
+  }
+}
